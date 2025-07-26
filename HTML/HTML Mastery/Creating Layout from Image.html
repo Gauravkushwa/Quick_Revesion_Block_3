@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Layout from Image</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            border: 1px solid;
+            text-align: center;
+            height: 150px;
+            align-items: center;
+            color: white;
+            padding: 50px 0 0 0;
+            background: linear-gradient(#25619D, #0DEAF2);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+            margin-top: 20666px;
+        }
+        h2{
+            margin: 20px 0;
+        }
+        table{
+            width: 90%;
+            margin-left: 5%;
+        }
+        th{
+            background-color: #191870;
+            color: white;
+            padding: 5px;
+        }
+        td{
+            text-align: left;
+            margin: 56666px;
+            padding: 3px 20px;
+            /* text-align: center; */
+        }
+          
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Projects</a>
+        <a href="">Contact</a>
+    </header>
+    <div>
+        <h2>Welcome to My Portfolio</h2>
+        <p>This Portfolio showcase my Projects and provide information about my Background and contact details</p>
+
+        <h2>About</h2>
+        <p>Hello! i'm a web developer passionate about building dynamic and responsive websites. I enjoy
+            create user friendly interfaces and working on challenging projects 
+        </p>
+        <h2>Projects</h2>
+        <div class="projects">
+            <table >
+              <thead>
+                <tr>
+                    <th>Project Nmae</th>
+                    <th>Description</th>
+                    <th>Year</th>
+                </tr>
+              </thead>
+               <tbody>
+                <tr>
+                    <td>Project Alpha</td>
+                    <td>A website tool for tracking project progress and managing tasks.</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Portfolio Site</td>
+                    <td>a personla website showcasing my work and skills as a web developer</td>
+                    <td>2024</td>
+                </tr>
+               </tbody>
+            </table>
+        </div>
+        <h2>Contact </h2>
+        <label for="">Name:</label><br>
+        <input type="text"><br>
+        <label for="">Email</label><br>
+        <input type="email" name="" id=""><br>
+        <label for="">Message</label><br>
+        <textarea name="" id=""></textarea>
+    </div>
+</body>
+</html>
